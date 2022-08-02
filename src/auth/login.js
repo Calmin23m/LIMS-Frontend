@@ -6,8 +6,8 @@ export class Login {
 
     heading = 'Login';
 
-    username = '';
-    password = '';
+    username = 'admin';
+    password = 'admin';
 
     loginError = '';
 

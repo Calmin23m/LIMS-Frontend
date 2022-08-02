@@ -58,7 +58,7 @@ export default class {
             //config.options.hashChange = false;
             //config.options.root = '/';
 
-            config.addPipelineStep('authorize', AuthenticateStep);
+            // config.addPipelineStep('authorize', AuthenticateStep);
             config.map(routes);
 
             config.mapUnknownRoutes({moduleId: 'not-found', nav: true, auth: true});
