@@ -1,0 +1,9 @@
+<template>
+    <ui-field label="Optimised for organism">
+        <ui-autocomplete from="organisms"
+                value.bind="model.properties[properties_src]"
+                store-value="name"
+                default-text.bind="model.properties[properties_src]">
+        </ui-autocomplete>
+    </ui-field>
+</template>
